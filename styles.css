@@ -1,0 +1,57 @@
+.grid{
+    width: 400px;
+    flex-wrap: wrap;
+    height: 400px;
+    display: flex;
+    background-color: rgb(153, 137, 116);
+    border-style:groove;
+    border-radius: 15px;
+}
+body{
+    margin-left: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png");
+}
+.grid div{
+    width: 94px;
+    height: 94px;
+    background-color: rgb(212, 193, 139);
+    line-height: 90px; 
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    border-style:groove;
+    border-radius: 15px;
+}
+
+.score-container{
+    padding: 10px;
+    background-color: orange;
+    height: 30px;
+    width: 200px;
+    border-style: groove;
+    font-size:x-large;
+}
+
+
+#result{
+    font-size:x-large;
+}
+button:hover{
+    background-color: orange;
+}
+
+button{
+    background-color: grey;
+    color: black;
+    height: 50px;
+    width: 60px;   
+}
+#reset{
+    width: 120px;
+}
+#up{
+    margin-left: 65px;
+}
